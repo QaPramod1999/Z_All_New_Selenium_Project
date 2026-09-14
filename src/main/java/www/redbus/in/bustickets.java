@@ -32,6 +32,8 @@ public class bustickets {
 		
 		@FindBy (css = "button[aria-label=\"Search buses\"]") private WebElement Search ;
 		
+		@FindBy (css = "div[class='travelsName___4606dc']") private List<WebElement> TravelsName ;
+		
 	
 		public bustickets (WebDriver driver ) 
 		{			
@@ -147,5 +149,20 @@ public class bustickets {
 		act.click(Search).click().perform();	
 	}
 	
+	
+	public void Travelsname() throws InterruptedException {
+		
+		
+		int n = TravelsName.size();
+		
+		for(int i=0 ;i<n ; i++) {
+			 
+			String act = TravelsName.get(i).getText().trim();
+			
+			System.out.println(act);
+		}
+		
+		Thread.sleep(5000);
+	}
 	
 }

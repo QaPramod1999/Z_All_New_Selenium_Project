@@ -1,4 +1,4 @@
-package www.redbus.in;
+package redbus.in;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import myntra.HomePage;
+import www.redbus.in.bustickets;
 
 public class ttt {
 	WebDriver driver ;
@@ -35,6 +36,7 @@ public class ttt {
 		  hp.TO11("Mumbai", "Andheri East, Mumbai" );
 		  hp.date();
 		  hp.Search();
+		  hp.Travelsname();
 		
 	  }
 	 
@@ -46,7 +48,9 @@ public class ttt {
 	
 	  @AfterClass
 	  public void afterClass() {
-		 driver.close();
+		  
+		 driver.close(); 
+		 
 	  }
 
 }

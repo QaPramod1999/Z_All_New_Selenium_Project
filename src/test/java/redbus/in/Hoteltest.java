@@ -1,8 +1,9 @@
-package demoqa.com;
+package redbus.in;
 
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import www.redbus.in.Hotel;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
@@ -11,39 +12,37 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 
-public class NewTest {
-	
+public class Hoteltest {
 	WebDriver driver ;
 	
-	Tab ta ;
+	Hotel ho ;
 	
 	
 	  @BeforeClass
 	  public void beforeClass() {
 		  WebDriverManager.chromedriver().setup();
 		  driver = new ChromeDriver();
-		  
+		   
+		  driver.manage().window().maximize();
 	  }
 	  
 	  @BeforeMethod
 	  public void beforeMethod() {
-		  ta = new Tab(driver);
-		  
+		  ho = new Hotel(driver );
 	  }
+
 	  
 	  
 	  @Test
 	  public void f() throws InterruptedException {
-		  
-		  ta.website();
-		  ta.menu();
-		  
-	  }
+		  ho.website();
+		//  ho.search();
+		  ho.d1();
 
-	
+	  }
+	 
 	  @AfterMethod
 	  public void afterMethod() {
-		  
 	  }
 	
 	
@@ -51,6 +50,6 @@ public class NewTest {
 	  @AfterClass
 	  public void afterClass() {
 		  driver.quit();
-
 	  }
+
 }

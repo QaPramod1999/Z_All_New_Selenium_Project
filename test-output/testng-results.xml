@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-11T18:03:57 IST" name="Default suite" finished-at="2026-09-11T18:04:15 IST" duration-ms="18159">
+  <suite started-at="2026-09-14T21:25:27 IST" name="Default suite" finished-at="2026-09-14T21:25:36 IST" duration-ms="8973">
     <groups>
     </groups>
-    <test started-at="2026-09-11T18:03:57 IST" name="Default test" finished-at="2026-09-11T18:04:15 IST" duration-ms="18159">
-      <class name="www.redbus.in.ttt">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:www.redbus.in.ttt@669513d8]" started-at="2026-09-11T18:03:57 IST" name="beforeClass" finished-at="2026-09-11T18:04:00 IST" duration-ms="2919" status="PASS">
+    <test started-at="2026-09-14T21:25:27 IST" name="Default test" finished-at="2026-09-14T21:25:36 IST" duration-ms="8973">
+      <class name="demoqa.com.NewTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:demoqa.com.NewTest@669513d8]" started-at="2026-09-14T21:25:27 IST" name="beforeClass" finished-at="2026-09-14T21:25:32 IST" duration-ms="4015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:www.redbus.in.ttt@669513d8]" started-at="2026-09-11T18:04:00 IST" name="beforeMethod" finished-at="2026-09-11T18:04:00 IST" duration-ms="50" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:demoqa.com.NewTest@669513d8]" started-at="2026-09-14T21:25:32 IST" name="beforeMethod" finished-at="2026-09-14T21:25:32 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:www.redbus.in.ttt@669513d8]" started-at="2026-09-11T18:04:00 IST" name="f" finished-at="2026-09-11T18:04:14 IST" duration-ms="14851" status="PASS">
+        <test-method signature="f()[pri:0, instance:demoqa.com.NewTest@669513d8]" started-at="2026-09-14T21:25:32 IST" name="f" finished-at="2026-09-14T21:25:36 IST" duration-ms="4528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:www.redbus.in.ttt@669513d8]" started-at="2026-09-11T18:04:14 IST" name="afterMethod" finished-at="2026-09-11T18:04:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:demoqa.com.NewTest@669513d8]" started-at="2026-09-14T21:25:36 IST" name="afterMethod" finished-at="2026-09-14T21:25:36 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:www.redbus.in.ttt@669513d8]" started-at="2026-09-11T18:04:15 IST" name="afterClass" finished-at="2026-09-11T18:04:15 IST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:demoqa.com.NewTest@669513d8]" started-at="2026-09-14T21:25:36 IST" name="afterClass" finished-at="2026-09-14T21:25:36 IST" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- www.redbus.in.ttt -->
+      </class> <!-- demoqa.com.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
